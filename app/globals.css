@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --primary: #5AA7A7;
+  --primary-dark: #3D8A8A;
+  --primary-light: #A8D5D5;
+  --primary-xlight: #E8F6F6;
+  --accent: #2D6A6A;
+  --nav-bg: #FFFFFF;
+  --nav-text: #2D6A6A;
+  --hero-overlay: rgba(45, 106, 106, 0.65);
+  --btn-text: #FFFFFF;
+}
+
+[data-theme="pink"] {
+  --primary: #D4688A;
+  --primary-dark: #B8456E;
+  --primary-light: #F0B0C5;
+  --primary-xlight: #FDF0F4;
+  --accent: #8C2D50;
+  --nav-bg: #FFF8FA;
+  --nav-text: #8C2D50;
+  --hero-overlay: rgba(140, 45, 80, 0.60);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Nunito', sans-serif; font-weight: 400; color: #1A2E2E; background: #FAFAFA; transition: background 0.3s ease; }
+h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+.theme-transition * { transition: background-color 0.4s ease, border-color 0.4s ease, color 0.3s ease; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 3px; }
+.leaflet-container { font-family: 'Nunito', sans-serif !important; }
