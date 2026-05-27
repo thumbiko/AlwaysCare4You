@@ -59,7 +59,7 @@ export default function FAQsPage() {
           <div>
             <p style={{ color: "var(--primary)", fontWeight: 700, fontSize: "13px", letterSpacing: "2px", textTransform: "uppercase", marginBottom: "12px" }}>Where We Work</p>
             <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(24px, 3vw, 34px)", color: "#1a2e2e", marginBottom: "20px" }}>Areas Covered</h2>
-            <p style={{ fontSize: "15px", color: "#4B5563", lineHeight: "1.7", marginBottom: "24px" }}>We provide home care services across Dublin City and the greater Dublin area. Click on any pin to see the service area.</p>
+            <p style={{ fontSize: "15px", color: "#4B5563", lineHeight: "1.7", marginBottom: "24px" }}>We provide home care services across Kildare, and  Dublin. Click on any pin to see the service area.</p>
             <AreasMap />
           </div>
         </div>

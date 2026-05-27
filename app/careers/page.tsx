@@ -56,7 +56,7 @@ export default function CareersPage() {
               Picture Your Career With AlwaysCare4You
             </h2>
             <p style={{ fontSize: "15px", color: "#4B5563", lineHeight: "1.8", marginBottom: "16px" }}>
-              We want to see you grow — not only as a professional, but as a person. Our culture champions honesty, encourages ownership and creates trust between everyone who works here.
+              We want to see you grow, not only as a professional, but as a person. Our culture champions honesty, encourages ownership and creates trust between everyone who works here.
             </p>
             <p style={{ fontSize: "15px", color: "#4B5563", lineHeight: "1.8" }}>
               Work-life balance is something we make important, because the health and wellbeing of our team members matters as much to us as that of the people we care for.

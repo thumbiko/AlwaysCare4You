@@ -99,21 +99,8 @@ export default function AboutPage() {
       {/* Team */}
       <section style={{ backgroundColor: "var(--primary-xlight)", padding: "80px 24px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", marginBottom: "48px" }}>
-            <p style={{ color: "var(--primary)", fontWeight: 700, fontSize: "13px", letterSpacing: "2px", textTransform: "uppercase", marginBottom: "10px" }}>Leadership</p>
-            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(24px, 3.5vw, 36px)", color: "#1a2e2e" }}>Our Senior Team</h2>
-          </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "24px" }}>
-            {TEAM.map(member => (
-              <div key={member.name} style={{ backgroundColor: "#fff", borderRadius: "14px", padding: "28px 20px", textAlign: "center", boxShadow: "0 2px 12px rgba(0,0,0,0.05)" }}>
-                <div style={{ width: "80px", height: "80px", borderRadius: "50%", backgroundColor: "var(--primary-xlight)", border: "3px solid var(--primary)", margin: "0 auto 16px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                  <span style={{ fontFamily: "'Playfair Display', serif", fontSize: "24px", color: "var(--primary)", fontWeight: 700 }}>{member.initials}</span>
-                </div>
-                <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "17px", color: "#1a2e2e", marginBottom: "6px" }}>{member.name}</h3>
-                <p style={{ fontSize: "13px", color: "var(--primary)", fontWeight: 600 }}>{member.role}</p>
-              </div>
-            ))}
-          </div>
+         
+      
         </div>
       </section>
 

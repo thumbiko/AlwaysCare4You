@@ -30,7 +30,7 @@ export default function HomePage() {
           {[
             { icon: "shield", label: "Garda Vetted", sub: "All carers fully vetted" },
             { icon: "cert", label: "QQI Qualified", sub: "Level 5 certified" },
-            { icon: "available", label: "7 Days a Week", sub: "365 days per year" },
+            
             { icon: "hse", label: "HSE Approved", sub: "Public & private funded" },
           ].map(t => (
             <div key={t.label} style={{ display: "flex", alignItems: "center", gap: "12px", minWidth: "180px" }}>

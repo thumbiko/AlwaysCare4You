@@ -3,7 +3,7 @@ export const COMPANY = {
   tagline: "Expert Home Care, Always There For You",
   phone: "085 842 9586",
   email: "hello@alwayscare4you.ie",
-  address: "Unit 12, Sandyford Business Park, Dublin 18, D18 X2K7",
+  address: "Unit 12, Rathangan Business Park, Kildare, R51 X2K7",
 };
 
 export const SERVICES = [
@@ -67,14 +67,14 @@ export const SERVICES = [
 
 export const TESTIMONIALS = [
   {
-    name: "Margaret O.",
-    location: "Dublin North",
+    name: "Thumbiko O.",
+    location: "Kildare",
     rating: 5,
     text: "The team at AlwaysCare4You have made such a positive difference to my mother's quality of life. The carers are patient, kind and genuinely caring. We could not recommend them highly enough.",
   },
   {
-    name: "Anthony G.",
-    location: "Dublin",
+    name: "Subira G.",
+    location: "Kildare",
     rating: 5,
     text: "They take their time and never rush my mother. They are patient and so respectful to her at all times. It gives our whole family great peace of mind knowing she is in such good hands.",
   },
@@ -150,7 +150,7 @@ export const FAQS = [
   },
   {
     q: "What areas do you cover?",
-    a: "We currently provide services across Dublin City, Dublin North, Dublin South, and the surrounding areas. Please contact us to confirm availability in your specific location.",
+    a: "We currently provide services across Kildare, Dublin, Dublin North, Dublin South, and the surrounding areas. Please contact us to confirm availability in your specific location.",
   },
   {
     q: "How are your carers vetted?",
@@ -187,6 +187,20 @@ export const AREAS = [
   { name: "Swords", lat: 53.4597, lng: -6.2181 },
   { name: "Tallaght", lat: 53.2877, lng: -6.3636 },
   { name: "Clondalkin", lat: 53.3254, lng: -6.3980 },
+
+  // Kildare
+  { name: "Naas", lat: 53.2159, lng: -6.6669 },
+  { name: "Newbridge", lat: 53.1817, lng: -6.7967 },
+  { name: "Maynooth", lat: 53.3817, lng: -6.5927 },
+  { name: "Celbridge", lat: 53.3386, lng: -6.5414 },
+  { name: "Leixlip", lat: 53.3658, lng: -6.4956 },
+  { name: "Kildare Town", lat: 53.1589, lng: -6.9090 },
+  { name: "Athy", lat: 52.9914, lng: -6.9800 },
+  { name: "Monasterevin", lat: 53.1408, lng: -7.0657 },
+  { name: "Kilcock", lat: 53.4022, lng: -6.6700 },
+  { name: "Sallins", lat: 53.2486, lng: -6.6644 },
+  { name: "Prosperous", lat: 53.2906, lng: -6.7539 },
+  { name: "Clane", lat: 53.2918, lng: -6.6899 },
 ];
 
 export const HOURS = [
